@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(55, 73, 73);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time, .digitalclock, .leftside, .rightside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside {
+    flex-direction: column;
+}
+
+.digitalclock {
+    background-color: black;
+    color: aliceblue;
+    width: 600px;
+    height: 200px;
+    padding: 20px 40px;
+    border-radius: 23px;
+    box-shadow: 0 0 23px 23px chartreuse;
+    text-align: center;
+}
+
+#hours {
+    font-size: 120px;
+    font-weight: 800;
+    box-shadow: 0 0 5px 5px chartreuse;
+}
+
+#dots {
+    font-size: 3rem;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px 5px chartreuse;
+    padding: 0;
+    color: blue;
+}
+
+#munites {
+    font-size: 70px;
+    font-weight: 600;
+    box-shadow: 0 0 5px 5px chartreuse;
+    padding: 0;
+}
+
+#seconds {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#ampm {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(0, 110, 255);
+    /* box-shadow: 0 0 5px 5px chartreuse; */
+}
+
+.rightbottom {
+    margin-left: 65px;
+    transform: translateY(20px);
+    box-shadow: 0 0 5px 5px chartreuse;
+}
+
+/* Date Styling */
+.date {
+    margin-top: 10px;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    margin-left: 34px;
+    color: blue;
+    box-shadow: 0 0 5px 5px chartreuse;
+}
